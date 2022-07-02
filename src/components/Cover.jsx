@@ -2,7 +2,7 @@ import { BsFillPlayCircleFill } from "react-icons/bs";
 
 function Cover() {
   return (
-    <section className="cover mb-[8rem]  p-5 text-white">
+    <section className="cover p-5 text-white">
       <div className="m-[3rem] py-6 ">
         <h1 className="text-[3.5rem] mt-[4rem] font-bold mb-4">
           Save the environment <br /> today for a better <br /> tomorrow
