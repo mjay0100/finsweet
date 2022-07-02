@@ -1,7 +1,11 @@
+import Navbar from "./components/Navbar";
+import Content from "./components/Content";
+
 function App() {
   return (
     <div className="App">
-      <h1 className="text-3xl">hello</h1>
+      <Navbar />
+      <Content />
     </div>
   );
 }
