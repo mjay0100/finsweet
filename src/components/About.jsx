@@ -6,10 +6,12 @@ import logo3 from "../public/images/logo3.svg";
 const About = () => {
   return (
     <section className="mx-[3rem]">
-      <div className="flex gap-5">
+      <div className="flex">
         <div className="mt-[2rem] py-[5.5rem] pl-[5rem]">
           <p className="uppercase mb-6">Know about us</p>
-          <h1 className="text-3xl mb-6">We help nature smile and survive </h1>
+          <h1 className="text-[3rem] mb-6 font-bold">
+            We help nature smile and survive{" "}
+          </h1>
           <p className="mb-6">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
             neque porro ipsa laboriosam earum provident, veniam quae, dolores,
@@ -27,7 +29,7 @@ const About = () => {
           </button>
         </div>
         <img
-          className="h-[70vh] px-[5rem] my-[4rem] rounded-md"
+          className="h-[85vh] px-[5rem] my-[4rem] rounded-md"
           src="https://images.unsplash.com/photo-1605713288610-00c1c630ca1e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGNoaWxkcmVufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
           alt=""
         />
