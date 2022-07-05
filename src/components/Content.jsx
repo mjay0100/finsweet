@@ -2,6 +2,7 @@ import Cover from "./Cover";
 import About from "./About";
 import Services from "./Services";
 import Works from "./Works";
+import Donation from "./Donation";
 
 const Content = () => {
   return (
@@ -10,6 +11,7 @@ const Content = () => {
       <About />
       <Services />
       <Works />
+      <Donation />
     </div>
   );
 };
