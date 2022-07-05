@@ -1,6 +1,6 @@
 import React from "react";
-
-const Work = () => {
+import { workData } from "../data";
+const Services = () => {
   return (
     <section className="bg-green-100/60 ">
       <div className="flex mx-[3rem]">
@@ -11,16 +11,22 @@ const Work = () => {
           </h1>
           <p className="mb-6">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
-            neque porro ipsa laboriosam earum provident, veniam quae, dolores,
-            ab ipsum id officiis error dolore! Provident molestiae mollitia
-            accusamus voluptatibus quibusdam?
+            neque porro ipsa laboriosam ?
           </p>
-          <p className="mb-[2rem]">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis
-            a deleniti odit nobis, magnam itaque minus asperiores, sint pariatur
-            vitae, quo recusandae quasi optio sequi id iusto doloremque?
-            Doloremque, corrupti?
-          </p>
+          {workData.map((data) => {
+            const { id, icon, title, text } = data;
+            return (
+              <div className="flex items-center gap-6 mb-6" key={id}>
+                <span className="text-lg text-white bg-green-300 p-1 rounded-md">
+                  {icon}
+                </span>
+                <div>
+                  <h1 className="font-semibold text-2xl capitalize">{title}</h1>
+                  <p>{text}</p>
+                </div>
+              </div>
+            );
+          })}
           <button className="bg-green-400 hover:bg-green-500 transition-all duration-300 py-2 px-4 rounded-md text-white">
             Learn More
           </button>
@@ -35,4 +41,4 @@ const Work = () => {
   );
 };
 
-export default Work;
+export default Services;
