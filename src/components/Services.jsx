@@ -5,7 +5,7 @@ const Services = () => {
     <section className="bg-green-100/60 ">
       <div className="flex mx-[3rem]">
         <div className="mt-[2rem] py-[5.5rem] pl-[5rem]">
-          <p className="uppercase mb-6">Know about us</p>
+          <p className="uppercase mb-6">what we do</p>
           <h1 className="text-[3rem] mb-6 font-bold">
             We care for the earth, care for the coming birth
           </h1>
