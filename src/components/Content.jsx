@@ -1,13 +1,15 @@
 import Cover from "./Cover";
 import About from "./About";
-import Work from "./Work";
+import Services from "./Services";
+import Works from "./Works";
 
 const Content = () => {
   return (
     <div>
       <Cover />
       <About />
-      <Work />
+      <Services />
+      <Works />
     </div>
   );
 };
