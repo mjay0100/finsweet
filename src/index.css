@@ -7,3 +7,21 @@
   object-fit: cover;
   background-size: cover;
 }
+
+.bg-1 {
+  background-image: url("https://media.istockphoto.com/photos/mysterious-path-full-of-roots-in-the-middle-of-wooden-coniferous-by-picture-id1328655725?b=1&k=20&m=1328655725&s=170667a&w=0&h=zh6TGe_Ad1h5VWtLkdVr56bROKIX0yoxcZScp0eljus=");
+  object-fit: cover;
+  background-size: cover;
+}
+
+.bg-2 {
+  background-image: url("https://media.istockphoto.com/photos/new-homes-on-a-quiet-street-in-raleigh-nc-picture-id1319269543?b=1&k=20&m=1319269543&s=170667a&w=0&h=9Nv2yeDkHR01ADDhxcY4A1PZx9veOOwPRVnNXT6Jk3c=");
+  object-fit: cover;
+  background-size: cover;
+}
+
+.bg-3 {
+  background-image: url("https://images.unsplash.com/photo-1596292313679-9b1c97854e36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bWFyc2h8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+  object-fit: cover;
+  background-size: cover;
+}
