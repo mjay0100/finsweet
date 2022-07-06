@@ -55,3 +55,66 @@ export const newsData = [
     text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, libero?",
   },
 ];
+
+export const footerData = [
+  {
+    id:1,
+    text:'our teams'
+  },
+  {
+    id:2,
+    text:'more'
+  },
+  {
+    id:3,
+    text:'connect'
+  },
+  {
+    id:4,
+    text:'about us'
+  },
+  {
+    id:5,
+    text:'projects'
+  },
+  {
+    id:6,
+    text:'facebook'
+  },
+  {
+    id:7,
+    text:'team'
+  },
+  {
+    id:8,
+    text:'events'
+  },
+  {
+    id:9,
+    text:'instagram'
+  },
+  {
+    id:10,
+    text:'what we do'
+  },
+  {
+    id:11,
+    text:'donate'
+  },
+  {
+    id:12,
+    text:'twitter'
+  },
+  {
+    id:13,
+    text:'contact'
+  },
+  {
+    id:14,
+    text:'blog'
+  },
+  {
+    id:15,
+    text:'linkedIn'
+  },
+]
