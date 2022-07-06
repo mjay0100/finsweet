@@ -5,6 +5,7 @@ import Works from "./Works";
 import Donation from "./Donation";
 import Contribution from "./Contribution";
 import News from "./News";
+import Event from "./Event";
 
 const Content = () => {
   return (
@@ -16,6 +17,7 @@ const Content = () => {
       <Donation />
       <Contribution />
       <News/>
+      <Event/>
     </div>
   );
 };
