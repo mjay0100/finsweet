@@ -1,7 +1,7 @@
 const Contribution = () => {
   return (
-    <section className="contribution-bg mx-[6rem] rounded-lg mb-[4rem] text-white">
-      <div className="mt-[5rem] py-[5.5rem] ">
+    <section className="contribution-bg rounded-lg mb-[4rem] text-white">
+      <div className="mt-[5rem] py-[8rem] ">
         <h1 className="text-[3rem] mb-6 text-center font-bold">
           You can contribute to make <br /> the environment greener!
         </h1>

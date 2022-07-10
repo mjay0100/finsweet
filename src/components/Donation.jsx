@@ -22,7 +22,7 @@ const Donation = () => {
   return (
     <section className=" mb-[4rem] p-[1.2rem] md:flex justify-between bg-black text- py-[2.5rem]">
       <div className="mt-[2rem]  py-[5.5rem] pl-[5rem] text-white">
-        <h1 className="text-[3rem] mb-6 font-bold">
+        <h1 className="text-[2rem] mb-6 font-bold">
           How we spend your <br /> donations and where it goes forever.
         </h1>
         <p className="text-white/60">

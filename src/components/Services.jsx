@@ -2,11 +2,11 @@ import React from "react";
 import { workData } from "../data";
 const Services = () => {
   return (
-    <section className="bg-green-100/60 py-[2rem] ">
+    <section className="bg-green-100/60 px-[3rem] py-[2rem] ">
       <div className="md:flex mx-[3rem]">
         <div className="mt-[2rem] py-[1.5rem]">
           <p className="uppercase mb-6">what we do</p>
-          <h1 className="text-[3rem] mb-6 font-bold">
+          <h1 className="text-[2rem] mb-6 font-bold">
             We care for the earth, care for the coming birth
           </h1>
           <p className="mb-6">
@@ -32,7 +32,7 @@ const Services = () => {
           </button>
         </div>
         <img
-          className="my-0 w-[100%] md:h-[85vh] px-5 md:my-[4rem] rounded-md"
+          className="my-0 w-[100%] md:h-[85vh] md:w-[100%] px-5 md:my-[4rem] rounded-md"
           src="https://images.unsplash.com/photo-1605713288610-00c1c630ca1e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGNoaWxkcmVufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
           alt=""
         />

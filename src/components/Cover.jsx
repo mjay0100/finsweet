@@ -20,9 +20,9 @@ function Cover() {
         </div>
       </div>
       <div className="flex gap-4 items-center mx-[3rem] mt-[10rem] mb-[4rem]">
-        <p>23,000 trees planted</p>
+        <p className='text-center'>23,000 trees planted</p>
         <div className=" w-[55%] md:w-2/3 h-[1px] bg-white"></div>
-        <p>5480 donations collected</p>
+        <p className='text-center'>5480 donations collected</p>
       </div>
     </section>
   );

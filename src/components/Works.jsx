@@ -1,9 +1,9 @@
 const Works = () => {
   return (
-    <section className="mx-[3rem] mb-[4rem]">
+    <section className="mx-[1.5rem] mb-[4rem]">
       <div className="mt-[2rem] text-center py-6">
         <p className="uppercase mb-6">what we have done</p>
-        <h1 className="text-[3rem] mb-6 font-bold">
+        <h1 className="text-[2rem] mb-6 font-bold">
           we are creating sustainable <br /> society, for everyone and <br />{" "}
           forever.
         </h1>

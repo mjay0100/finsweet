@@ -32,7 +32,7 @@ export const workData = [
 export const newsData = [
   {
     id: 1,
-    img: "https://media.istockphoto.com/photos/thoroughbred-horses-grazing-at-sunset-in-a-field-picture-id1349772438?b=1&k=20&m=1349772438&s=170667a&w=0&h=dzJsbcThM9uMYOZwXzZcvBl6jz6_PY38YSzwYfWqmtU=",
+    img: "https://media.istockphoto.com/photos/aerial-view-of-the-mountain-road-in-a-green-forest-picture-id1330597560?b=1&k=20&m=1330597560&s=170667a&w=0&h=6uL4OGuNad2sKmVrOJzyp3eK_qUDp1DnggPo1jFTDl4=",
     title: "Don't destroy greenery and don't spoil scenery",
     text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, libero?",
   },

@@ -5,11 +5,11 @@ import logo3 from "../public/images/logo3.svg";
 
 const About = () => {
   return (
-    <section className="mx-[3rem] py-6">
+    <section className="px-[3rem]  py-6">
       <div className="block md:flex pb-5">
         <div className="mt-[2rem]  px-5">
           <p className="uppercase mb-6">Know about us</p>
-          <h1 className="text-[3rem] mb-6 font-bold">
+          <h1 className="text-[2rem] mb-6 font-bold">
             We help nature smile and survive{" "}
           </h1>
           <p className="mb-6">
