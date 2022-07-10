@@ -3,8 +3,8 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 const Event = () => {
   return (
     <section className=" mx-[6rem] rounded-lg mb-[4rem]">
-      <div className="mt-[6rem] mb-[4rem] items-center flex gap-2 ">
-        <h1 className="text-[2rem] font-bold">Our Events</h1>
+      <div className="mt-[6rem] mb-[4rem] items-center md:flex gap-2 ">
+        <h1 className="mb-3 text-[2rem] font-bold">Our Events</h1>
         <div className="w-[77%] h-[1px] bg-slate-400"></div>
       </div>
       <div className="flex gap-5">

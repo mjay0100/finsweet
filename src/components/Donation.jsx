@@ -20,7 +20,7 @@ const data = {
 
 const Donation = () => {
   return (
-    <section className=" mb-[4rem] p-[1.2rem] flex justify-between bg-black text-white">
+    <section className=" mb-[4rem] p-[1.2rem] md:flex justify-between bg-black text- py-[2.5rem]">
       <div className="mt-[2rem]  py-[5.5rem] pl-[5rem] text-white">
         <h1 className="text-[3rem] mb-6 font-bold">
           How we spend your <br /> donations and where it goes forever.
@@ -28,7 +28,7 @@ const Donation = () => {
         <p className="text-white/60">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, libero?
         </p>
-        <div className="grid grid-cols-3 mt-[3rem]">
+        <div className="grid grid-cols-2 gap-3 mt-[3rem]">
           <div className="flex gap-4">
             <input type="checkbox" />
             <p>40% planting trees</p>
@@ -51,7 +51,7 @@ const Donation = () => {
           </div>
         </div>
       </div>
-      <div className="mt-[6rem] mx-[4rem]">
+      <div className="w-[50%] mx-auto md:my-auto md:mx-[4rem]">
         <Doughnut data={data} />
       </div>
     </section>
