@@ -6,6 +6,7 @@ import Donation from "./Donation";
 import Contribution from "./Contribution";
 import News from "./News";
 import Event from "./Event";
+import Footer from "./Footer";
 
 const Content = () => {
   return (
@@ -18,6 +19,7 @@ const Content = () => {
       <Contribution />
       <News/>
       <Event/>
+      <Footer/>
     </div>
   );
 };
