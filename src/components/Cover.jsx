@@ -4,7 +4,7 @@ function Cover() {
   return (
     <section className="cover p-5 text-white">
       <div className="m-[3rem] py-6 ">
-        <h1 className="text-[3.5rem] mt-[4rem] font-bold mb-4">
+        <h1 className="text-3xl md:text-5xl mt-[4rem] font-bold mb-4">
           Save the environment <br /> today for a better <br /> tomorrow
         </h1>
         <div className="flex gap-3">
@@ -21,7 +21,7 @@ function Cover() {
       </div>
       <div className="flex gap-4 items-center mx-[3rem] mt-[10rem] mb-[4rem]">
         <p>23,000 trees planted</p>
-        <div className="w-2/3 h-[1px] bg-white"></div>
+        <div className=" w-[55%] md:w-2/3 h-[1px] bg-white"></div>
         <p>5480 donations collected</p>
       </div>
     </section>
