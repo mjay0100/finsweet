@@ -2,8 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-  width: fit-content
+html,
+body {
+  width: fit-content;
 }
 
 .cover {
@@ -24,7 +25,6 @@ body{
   background-size: cover;
 }
 
-
 .bg-3 {
   background-image: url("https://images.unsplash.com/photo-1596292313679-9b1c97854e36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bWFyc2h8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
   object-fit: cover;
@@ -35,4 +35,26 @@ body{
   background-image: url("https://media.istockphoto.com/photos/wind-farm-at-sunset-picture-id1301243910?b=1&k=20&m=1301243910&s=170667a&w=0&h=M6Nbb_aF5BfmxxGfvuvWhbjByNNdKc6qFmxvdrOnfVI=");
   object-fit: cover;
   background-size: cover;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 60%;
+  height: 100%;
+  background: #e5e7eb;
+  display: grid;
+  box-shadow: hsl(360, 67%, 44%);
+  transition: transform 0.5s linear;
+  transform: translate(-100%);
+}
+
+.show-sidebar {
+  transform: translate(0);
+}
+
+.list-sidebar {
+  height: 50%;
+  align-items: end;
 }
