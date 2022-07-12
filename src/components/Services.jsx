@@ -32,7 +32,7 @@ const Services = () => {
           </button>
         </div>
         <img
-          className="my-0 w-[100%] md:h-[85vh] md:w-[100%] px-5 md:my-[4rem] rounded-md"
+          className="my-0 w-[100%] md:h-[85vh] md:w-[50%] px-5 md:my-[4rem] rounded-md"
           src="https://images.unsplash.com/photo-1605713288610-00c1c630ca1e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGNoaWxkcmVufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
           alt=""
         />
