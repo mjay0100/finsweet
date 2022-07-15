@@ -33,10 +33,12 @@ const Navbar = () => {
               finsweet
             </h1>
           )}
-          <Link to='/' className={`${show ? "mt-[5rem] py-4 ml-4" : ""}`}>
+          <Link to="/" className={`${show ? "mt-[5rem] py-4 ml-4" : ""}`}>
             home
           </Link>
-          <li className={`${show ? "py-4 ml-4" : ""}`}>about us</li>
+          <Link to="/about" className={`${show ? "py-4 ml-4" : ""}`}>
+            about us
+          </Link>
           <li className={`${show ? "py-4 ml-4" : ""}`}>what we do</li>
           <li className={`${show ? "py-4 ml-4" : ""}`}>media</li>
           <li className={`${show ? "py-4 ml-4" : ""}`}>contact</li>
