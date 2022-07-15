@@ -7,7 +7,7 @@ const News = () => {
         <h1 className="mb-4 text-[2rem] font-bold">Read Our News</h1>
         <div className="w-[77%] h-[1px] bg-slate-400"></div>
       </div>
-      <div className="grid grid-cols-2 md:flex justify-between gap-5">
+      <div className="grid grid-cols-2 md:flex justify-between gap-5 mx-[2rem]">
         {newsData.map((data) => {
           const { id, img, title, text } = data;
           return (

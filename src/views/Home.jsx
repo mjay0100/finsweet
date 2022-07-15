@@ -72,7 +72,7 @@ const Home = () => {
           <p className="text-lg">Our supporters</p>
           <div className="w-[77%] h-[1px] bg-slate-400"></div>
         </div>
-        <div className="grid grid-cols-3 gap-5  lg:flex text-lg text-[#ccc] items-center justify-evenly mb-[3.5rem]">
+        <div className="grid grid-cols-3 gap-5 w-[90%] mx-auto  lg:flex text-lg text-[#ccc] items-center justify-evenly mb-[3.5rem]">
           <img src={logo2} alt="" />
           <img src={logo} alt="" />
           <img src={logo3} alt="" />
