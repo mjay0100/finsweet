@@ -33,15 +33,38 @@ const Navbar = () => {
               finsweet
             </h1>
           )}
-          <Link to="/" className={`${show ? "mt-[5rem] py-4 ml-4" : ""}`}>
+          <Link
+            onClick={() => setShow(false)}
+            to="/"
+            className={`${show ? "mt-[5rem] py-4 ml-4" : ""}`}
+          >
             home
           </Link>
-          <Link to="/about" className={`${show ? "py-4 ml-4" : ""}`}>
+          <Link
+            onClick={() => setShow(false)}
+            to="/about"
+            className={`${show ? "py-4 ml-4" : ""}`}
+          >
             about us
           </Link>
-          <li className={`${show ? "py-4 ml-4" : ""}`}>what we do</li>
-          <li className={`${show ? "py-4 ml-4" : ""}`}>media</li>
-          <li className={`${show ? "py-4 ml-4" : ""}`}>contact</li>
+          <li
+            onClick={() => setShow(false)}
+            className={`${show ? "py-4 ml-4" : ""}`}
+          >
+            what we do
+          </li>
+          <li
+            onClick={() => setShow(false)}
+            className={`${show ? "py-4 ml-4" : ""}`}
+          >
+            media
+          </li>
+          <li
+            onClick={() => setShow(false)}
+            className={`${show ? "py-4 ml-4" : ""}`}
+          >
+            contact
+          </li>
           {!show && (
             <button className="hidden lg:block px-4 py-2 rounded-md bg-black text-white">
               Donate
