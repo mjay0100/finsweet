@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { RiBracesLine } from "react-icons/ri";
 import { FaBars, FaTimes } from "react-icons/fa";
+import {Link} from 'react-router-dom'
 
 const Navbar = () => {
   const [show, setShow] = useState(false);
@@ -32,8 +33,8 @@ const Navbar = () => {
               finsweet
             </h1>
           )}
-          <li className={`${show ? "mt-[5rem] py-4 ml-4" : ""}`}>home</li>
-          <li className={`${show ? "py-4 ml-4" : ""}`}>about us</li>
+          <Link to='/' className={`${show ? "mt-[5rem] py-4 ml-4" : ""}`}>home</Link>
+          <Link to='/about' className={`${show ? "py-4 ml-4" : ""}`}>about us</Link>
           <li className={`${show ? "py-4 ml-4" : ""}`}>what we do</li>
           <li className={`${show ? "py-4 ml-4" : ""}`}>media</li>
           <li className={`${show ? "py-4 ml-4" : ""}`}>contact</li>
