@@ -1,12 +1,9 @@
-import Navbar from "./components/Navbar";
-import Content from "./components/Content";
+import Route from "./router/Index";
+
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <Content />
-    </div>
+    <Route/>
   );
 }
 
