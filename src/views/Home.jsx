@@ -3,6 +3,12 @@ import logo from "../public/images/logo.svg";
 import logo2 from "../public/images/logo2.svg";
 import logo3 from "../public/images/logo3.svg";
 import { workData } from "../data";
+import Donation from "../components/Donation";
+import Works from "../components/Works";
+import Contribution from "../components/Contribution";
+import News from "../components/News";
+import Event from "../components/Event";
+
 
 const Home = () => {
   return (
@@ -115,6 +121,11 @@ const Home = () => {
           />
         </div>
       </section>
+      <Works />
+      <Donation />
+      <Contribution />
+      <News/>
+      <Event/>
     </>
   );
 };
