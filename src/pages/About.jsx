@@ -4,6 +4,9 @@ import Event from "../components/Event";
 import logo from "../public/images/logo.svg";
 import logo2 from "../public/images/logo2.svg";
 import logo3 from "../public/images/logo3.svg";
+import { AiTwotoneStar } from "react-icons/ai";
+import { IoIosTrophy } from "react-icons/io";
+import { GrCertificate } from "react-icons/gr";
 
 const About = () => {
   return (
@@ -71,7 +74,22 @@ const About = () => {
           <img src={logo3} alt="" />
         </div>
       </section>
-
+      <section classNAme="mt-6">
+        <h1 className="text-3xl mb-6 capitalize font-bold text-center">
+          awards & recognition
+        </h1>
+        <div className="flex justify-center text-green-300 gap-6 text-lg w-[90%] mx-auto">
+          <span className="text-4xl text-green-200">
+            <AiTwotoneStar />
+          </span>
+          <span className="text-4xl text-green-200">
+            <IoIosTrophy />
+          </span>
+          <span className="text-4xl text-green-200">
+            <GrCertificate />
+          </span>
+        </div>
+      </section>
       <Contribution />
       <News />
       <Event />
