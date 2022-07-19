@@ -5,7 +5,7 @@ import Event from "../components/Event";
 import serviceBg from "../public/images/service-page/service.png";
 import { workData } from "../data";
 
-const Services = () => {
+const Services = ({title}) => {
   return (
     <>
       <section className="px-[3rem]  py-6">
