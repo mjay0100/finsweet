@@ -5,7 +5,7 @@ import Event from "../components/Event";
 import serviceBg from "../public/images/service-page/service.png";
 import { workData } from "../data";
 
-const Services = ({title}) => {
+const Services = () => {
   return (
     <>
       <section className="px-[3rem]  py-6">
@@ -13,7 +13,7 @@ const Services = ({title}) => {
           <div className="mt-[2rem] md:w-[50%] px-5">
             <p className="uppercase mb-6">Know about us</p>
             <h1 className="text-4xl mb-6 font-bold">
-              We are working worldwide
+              Our goal is to make water available for everyone
             </h1>
             <p className="mb-6">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
