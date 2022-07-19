@@ -1,7 +1,7 @@
 import { BsFillPlayCircleFill } from "react-icons/bs";
-import logo from "../public/images/logo.svg";
-import logo2 from "../public/images/logo2.svg";
-import logo3 from "../public/images/logo3.svg";
+import logo from "../public/images/logo/logo.svg";
+import logo2 from "../public/images/logo/logo2.svg";
+import logo3 from "../public/images/logo/logo3.svg";
 import { workData } from "../data";
 import Donation from "../components/Donation";
 import Works from "../components/Works";
