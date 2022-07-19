@@ -1,11 +1,10 @@
 import { newsData } from "../data";
 
-const News = () => {
+const News = ({ title }) => {
   return (
     <section className=" mx-[1rem] rounded-lg mb-[4rem]">
-      <div className="mt-[6rem] mb-[4rem] items-center md:flex gap-2 ">
-        <h1 className="mb-4 text-[2rem] font-bold">Read Our News</h1>
-        <div className="w-[77%] h-[1px] bg-slate-400"></div>
+      <div className="mt-[6rem] mb-[4rem] items-center text-center gap-2 ">
+        <h1 className="mb-4 text-[2rem] font-bold">{title}</h1>
       </div>
       <div className="grid grid-cols-2 md:flex justify-between gap-5 mx-[2rem]">
         {newsData.map((data) => {
@@ -21,6 +20,10 @@ const News = () => {
       </div>
     </section>
   );
+};
+
+News.defaultProps = {
+  title: "Read Our News",
 };
 
 export default News;
