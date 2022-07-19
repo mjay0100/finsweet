@@ -1,6 +1,14 @@
 import { BiBuildings } from "react-icons/bi";
 import { GiBurningTree, GiSittingDog } from "react-icons/gi";
-import { FaWater } from "react-icons/fa";
+import { FaWater, FaTwitter, FaFacebook, FaLinkedin } from "react-icons/fa";
+import adrian from "./public/images/team/adrian.png";
+import dale from "./public/images/team/dale.png";
+import ellen from "./public/images/team/ellen.png";
+import francis from "./public/images/team/francis.png";
+import freddy from "./public/images/team/freddy.png";
+import kyla from "./public/images/team/kyla.png";
+import leonard from "./public/images/team/leonard.png";
+import miriam from "./public/images/team/miriam.png";
 
 export const workData = [
   {
@@ -58,63 +66,154 @@ export const newsData = [
 
 export const footerData = [
   {
-    id:1,
-    text:'our teams'
+    id: 1,
+    text: "our teams",
   },
   {
-    id:2,
-    text:'more'
+    id: 2,
+    text: "more",
   },
   {
-    id:3,
-    text:'connect'
+    id: 3,
+    text: "connect",
   },
   {
-    id:4,
-    text:'about us'
+    id: 4,
+    text: "about us",
   },
   {
-    id:5,
-    text:'projects'
+    id: 5,
+    text: "projects",
   },
   {
-    id:6,
-    text:'facebook'
+    id: 6,
+    text: "facebook",
   },
   {
-    id:7,
-    text:'team'
+    id: 7,
+    text: "team",
   },
   {
-    id:8,
-    text:'events'
+    id: 8,
+    text: "events",
   },
   {
-    id:9,
-    text:'instagram'
+    id: 9,
+    text: "instagram",
   },
   {
-    id:10,
-    text:'what we do'
+    id: 10,
+    text: "what we do",
   },
   {
-    id:11,
-    text:'donate'
+    id: 11,
+    text: "donate",
   },
   {
-    id:12,
-    text:'twitter'
+    id: 12,
+    text: "twitter",
   },
   {
-    id:13,
-    text:'contact'
+    id: 13,
+    text: "contact",
   },
   {
-    id:14,
-    text:'blog'
+    id: 14,
+    text: "blog",
   },
   {
-    id:15,
-    text:'linkedIn'
+    id: 15,
+    text: "linkedIn",
   },
-]
+];
+
+export const team = [
+  {
+    id: 1,
+    img: adrian,
+    name: "adrian dixon",
+    title: "support executive",
+    icons: [
+      { icon: <FaTwitter /> },
+      { icon: <FaFacebook /> },
+      { icon: <FaLinkedin /> },
+    ],
+  },
+  {
+    id: 2,
+    img: dale,
+    name: "dale banks",
+    title: "accountant, finance",
+    icons: [
+      { icon: <FaTwitter /> },
+      { icon: <FaFacebook /> },
+      { icon: <FaLinkedin /> },
+    ],
+  },
+  {
+    id: 3,
+    img: ellen,
+    name: "ellen walton",
+    title: "vice chairman",
+    icons: [
+      { icon: <FaTwitter /> },
+      { icon: <FaFacebook /> },
+      { icon: <FaLinkedin /> },
+    ],
+  },
+  {
+    id: 4,
+    img: francis,
+    name: "francis weber",
+    title: "vice chairman",
+    icons: [
+      { icon: <FaTwitter /> },
+      { icon: <FaFacebook /> },
+      { icon: <FaLinkedin /> },
+    ],
+  },
+  {
+    id: 5,
+    img: freddy,
+    name: "freddy busby",
+    title: "project manager",
+    icons: [
+      { icon: <FaTwitter /> },
+      { icon: <FaFacebook /> },
+      { icon: <FaLinkedin /> },
+    ],
+  },
+  {
+    id: 6,
+    img: kyla,
+    name: "kyla obrien",
+    title: "head of authority",
+    icons: [
+      { icon: <FaTwitter /> },
+      { icon: <FaFacebook /> },
+      { icon: <FaLinkedin /> },
+    ],
+  },
+  {
+    id: 7,
+    img: leonard,
+    name: "Leonard John Davies",
+    title: "Cofounder, CEO",
+    icons: [
+      { icon: <FaTwitter /> },
+      { icon: <FaFacebook /> },
+      { icon: <FaLinkedin /> },
+    ],
+  },
+  {
+    id: 8,
+    img: miriam,
+    name: "miriam middleton",
+    title: "Cofounder, CEO",
+    icons: [
+      { icon: <FaTwitter /> },
+      { icon: <FaFacebook /> },
+      { icon: <FaLinkedin /> },
+    ],
+  },
+];
