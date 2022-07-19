@@ -9,6 +9,9 @@ import freddy from "./public/images/team/freddy.png";
 import kyla from "./public/images/team/kyla.png";
 import leonard from "./public/images/team/leonard.png";
 import miriam from "./public/images/team/miriam.png";
+import image3 from "./public/images/media-images/image.png";
+import image1 from "./public/images/media-images/image1.png";
+import image2 from "./public/images/media-images/image2.png";
 
 export const workData = [
   {
@@ -217,3 +220,24 @@ export const team = [
     ],
   },
 ];
+
+export const mediaData =[
+  {
+    id:1,
+    img:image1,
+    title:"Don't destroy greenery and don't spoil scenery",
+    body:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique neque porro ipsa laboriosam ',
+  },
+  {
+    id:2,
+    img:image2,
+    title:'Why saving wildlife is extremely important ',
+    body:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Similiqu eneque porro ipsa laboriosam ',
+  },
+  {
+    id:3,
+    img:image3,
+    title:'Caring for the present is caring for the future',
+    body:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique neque porro ipsa laboriosam ',
+  },
+]
