@@ -59,12 +59,12 @@ const Navbar = () => {
           >
             media
           </Link>
-          <li
+          <Link to='/contact'
             onClick={() => setShow(false)}
             className={`${show ? "py-4 ml-4" : ""}`}
           >
             contact
-          </li>
+          </Link>
           {!show && (
             <button className="hidden lg:block px-4 py-2 rounded-md bg-black text-white">
               Donate
