@@ -47,12 +47,12 @@ const Navbar = () => {
           >
             about us
           </Link>
-          <li
+          <Link to='/services'
             onClick={() => setShow(false)}
             className={`${show ? "py-4 ml-4" : ""}`}
           >
             what we do
-          </li>
+          </Link>
           <li
             onClick={() => setShow(false)}
             className={`${show ? "py-4 ml-4" : ""}`}
