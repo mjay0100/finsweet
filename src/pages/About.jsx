@@ -1,9 +1,12 @@
 import Contribution from "../components/Contribution";
 import News from "../components/News";
 import Event from "../components/Event";
-import logo from "../public/images/logo.svg";
-import logo2 from "../public/images/logo2.svg";
-import logo3 from "../public/images/logo3.svg";
+import Team from "../components/Team";
+import logo from "../public/images/logo/logo.svg";
+import logo2 from "../public/images/logo/logo2.svg";
+import logo3 from "../public/images/logo/logo3.svg";
+import donation from "../public/images/about-images/donation.png";
+import BG from "../public/images/about-images/BG.png";
 import { AiTwotoneStar } from "react-icons/ai";
 import { IoIosTrophy } from "react-icons/io";
 import { TbFileCertificate } from "react-icons/tb";
@@ -35,7 +38,7 @@ const About = () => {
         <div className="bg-slate-100/60 rounded-md pb-7">
           <img
             className="mx-auto rounded-lg my-5 w-[60%] md:w-[80%]"
-            src="https://s3-alpha-sig.figma.com/img/6b0d/2b7a/bcbc1e3e336fe96e9e9bc64f47322768?Expires=1658707200&Signature=UeQd0PbtwvsAcAFwvtwyi6VDcI3Sqskt-NHvI7hFddZlmgeSZzOtQmHzEWcXWDGVuw3kbvqDJzou1WdOLGeaDNpQ3xLSM13XSlvh8cxKr74RjACWPdR1Oaf51HqtsELyRIoVRwHf1B1GZWzlToWhXdKEJ-LFROYmCX5p71S1or4nytphbBQq40yJctDEVfiAMZjvizZp1~i~6q8FWTzJqrHJ-11Fa1IsmXgv5ibJ3ik7Ddbmo0mMb4cpqInaroDqo-KYl4rIj70~eR4Uunm0jA2MCIHHO9nsPsqEvVxPw47Jlj0e~tPapgo5mp2q10bMs-BuDcsxmZr6LrtZx-iDeg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
+            src={BG}
             alt=""
           />
           <div className="md:flex items-center justify-between gap-6 my-[3rem] w-[70%] mx-auto">
@@ -115,7 +118,28 @@ const About = () => {
           </div>
         </div>
       </section>
-      
+
+      {/* our journey */}
+      <section className="px-4 bg-black rounded-lg mt-7 text-white w-[90%] mx-auto py-[4rem]">
+        <div className="block md:flex pb-5 w-[85%] mx-auto items-center">
+          <div className="mt-[2rem] md:w-[50%] px-5">
+            <p className="uppercase mb-6">our journey</p>
+            <h1 className="text-[2rem] mb-6 font-bold">How we raised 34M</h1>
+            <p className="mb-6 text-[#ccc]">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
+              neque porro ipsa laboriosam earum provident, veniam quae, dolores,
+              ab ipsum id officiis error dolore! Provident molestiae mollitia
+              accusamus voluptatibus quibusdam?
+            </p>
+          </div>
+          <img
+            className="w-2/3 md:w-[50%] rounded-md mx-auto"
+            src={donation}
+            alt=""
+          />
+        </div>
+      </section>
+      <Team />
       <Contribution />
       <News />
       <Event />
