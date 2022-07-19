@@ -53,12 +53,12 @@ const Navbar = () => {
           >
             what we do
           </Link>
-          <li
+          <Link to='/media'
             onClick={() => setShow(false)}
             className={`${show ? "py-4 ml-4" : ""}`}
           >
             media
-          </li>
+          </Link>
           <li
             onClick={() => setShow(false)}
             className={`${show ? "py-4 ml-4" : ""}`}
