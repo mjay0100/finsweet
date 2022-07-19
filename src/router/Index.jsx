@@ -6,6 +6,7 @@ import Home from "../pages/Home";
 import About from "../pages/About";
 import Services from "../pages/Services.jsx";
 import Media from "../pages/Media.jsx";
+import Contact from "../pages/Contact.jsx";
 
 export default function Index() {
   return (
@@ -16,6 +17,7 @@ export default function Index() {
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Services />} />
         <Route path="/media" element={<Media />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
     </BrowserRouter>
