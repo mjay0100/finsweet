@@ -47,28 +47,33 @@ const Navbar = () => {
           >
             about us
           </Link>
-          <Link to='/services'
+          <Link
+            to="/services"
             onClick={() => setShow(false)}
             className={`${show ? "py-4 ml-4" : ""}`}
           >
             what we do
           </Link>
-          <Link to='/media'
+          <Link
+            to="/media"
             onClick={() => setShow(false)}
             className={`${show ? "py-4 ml-4" : ""}`}
           >
             media
           </Link>
-          <Link to='/contact'
+          <Link
+            to="/contact"
             onClick={() => setShow(false)}
             className={`${show ? "py-4 ml-4" : ""}`}
           >
             contact
           </Link>
           {!show && (
-            <button className="hidden lg:block px-4 py-2 rounded-md bg-black text-white">
-              Donate
-            </button>
+            <Link to="/donation">
+              <button className="hidden lg:block px-4 py-2 rounded-md bg-black text-white">
+                Donate
+              </button>
+            </Link>
           )}
         </ul>
       </nav>
