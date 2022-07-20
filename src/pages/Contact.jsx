@@ -1,5 +1,6 @@
 import { FaTwitter, FaFacebook, FaLinkedin } from "react-icons/fa";
-import Form from '../components/Form'
+import Form from "../components/Form";
+
 const Contact = () => {
   return (
     <>
@@ -42,7 +43,7 @@ const Contact = () => {
           </div>
         </div>
       </section>
-      <Form/>
+      <Form />
     </>
   );
 };
