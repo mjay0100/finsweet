@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 .cover {
   background-image: url("https://images.unsplash.com/photo-1516528387618-afa90b13e000?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8anVuZ2xlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
   object-fit: cover;
@@ -55,6 +54,6 @@
   align-items: end;
 }
 
-img{
-  width:auto
+img {
+  width: auto;
 }
