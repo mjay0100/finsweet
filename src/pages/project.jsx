@@ -1,6 +1,7 @@
 import Works from "../components/Works";
 import Contribution from "../components/Contribution";
 import projectImg from "../public/images/projectImg.png";
+import { workData } from "../data";
 
 const Project = () => {
   return (
@@ -46,7 +47,39 @@ const Project = () => {
           volutpat amet. Sed mauris amet mi sed purus vitae odio. Mi eu lectus
           suscipit sagittis, ultrices ut dui.
         </p>
+        <ul className="list-disc px-6 my-3">
+          <li>Posuere sed pulvinar enim faucibus justo, cursus.</li>
+          <li>Posuere sed pulvinar enim faucibus justo, cursus.</li>
+          <li>
+            In diam facilisi at sit convallis blandit blandit in. Maecenas odio
+            orci lectus urna ante consequat erat non morbi.
+          </li>
+        </ul>
+        <p>
+          Posuere sed pulvinar enim faucibus justo, cursus. In diam facilisi at
+          sit convallis blandit blandit in. Maecenas odio orci lectus urna ante
+          consequat erat non morbi.
+        </p>
       </section>
+      <section className="bg-[#EBF0F9] px-[3rem] py-[4rem] my-12 ">
+        <div className="grid md:grid-cols-2 w-[85%] mx-auto items-center">
+          {workData.map((data) => {
+            const { id, icon, title, text } = data;
+            return (
+              <div className="flex items-center gap-6 mb-6" key={id}>
+                <span className="text-lg text-white bg-green-300 p-1 rounded-md">
+                  {icon}
+                </span>
+                <div>
+                  <h1 className="font-semibold text-2xl capitalize">{title}</h1>
+                  <p>{text}</p>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </section>
+
       <Works title="" header="" />
       <Contribution />
     </>
@@ -54,15 +87,3 @@ const Project = () => {
 };
 
 export default Project;
-          
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-        
