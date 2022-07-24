@@ -68,6 +68,13 @@ const Navbar = () => {
           >
             contact
           </Link>
+          <Link
+            to="/project"
+            onClick={() => setShow(false)}
+            className={`${show ? "py-4 ml-4" : ""}`}
+          >
+            project
+          </Link>
           {!show && (
             <Link to="/donation">
               <button className="hidden lg:block px-4 py-2 rounded-md bg-black text-white">
