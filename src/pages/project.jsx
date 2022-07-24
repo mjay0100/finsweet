@@ -8,7 +8,7 @@ const Project = () => {
     <>
       <section className="w-[85%] mx-auto md:w-[60%] mt-8">
         <p className="text-lg font-semibold uppercase mb-4">our project</p>
-        <h1 className="font-bold text-5xl mb-8">
+        <h1 className="font-bold text-3xl md:text-5xl mb-8">
           Weekly cleanliness program in the city
         </h1>
         <p className="mb-6">
