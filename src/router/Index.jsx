@@ -9,6 +9,7 @@ import Media from "../pages/media.jsx";
 import Contact from "../pages/contact.jsx";
 import Donation from "../pages/donation.jsx";
 import Project from "../pages/project.jsx";
+import Blog from "../pages/blog.jsx";
 
 export default function Index() {
   return (
@@ -22,6 +23,7 @@ export default function Index() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/donation" element={<Donation />} />
         <Route path="/project" element={<Project />} />
+        <Route path="/blog" element={<Blog />} />
       </Routes>
       <Footer />
     </BrowserRouter>
