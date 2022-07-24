@@ -1,12 +1,9 @@
-const Works = () => {
+const Works = ({ title, header }) => {
   return (
     <section className="mx-[1.5rem] mb-[4rem]">
       <div className="mt-[2rem] text-center py-6">
-        <p className="uppercase mb-6">what we have done</p>
-        <h1 className="text-[2rem] mb-6 font-bold">
-          we are creating sustainable <br /> society, for everyone and <br />{" "}
-          forever.
-        </h1>
+        <p className="uppercase text-left md:w-[40%] mb-6">{header}</p>
+        <h1 className="text-4xl text-left lg:w-[50%] mb-6 font-bold">{title}</h1>
       </div>
       <div className="grid md:flex gap-5">
         <div className="bg-1 w-[100%] rounded-lg py-[4rem] px-5 lg:w-[33%]">
@@ -48,6 +45,12 @@ const Works = () => {
       </div>
     </section>
   );
+};
+
+Works.defaultProps = {
+  title:
+    " we are creating sustainable society, for everyone and forever.",
+  header: "what we have done",
 };
 
 export default Works;
