@@ -63,7 +63,7 @@ const Home = () => {
             </button>
           </div>
           <img
-            className="h-[80vh] md:[h-50vh] my-[3rem] rounded-md mx-auto"
+            className="h-[80vh] md:h-[50vh] my-[3rem] rounded-md mx-auto"
             src="https://images.unsplash.com/photo-1605713288610-00c1c630ca1e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGNoaWxkcmVufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
             alt=""
           />
