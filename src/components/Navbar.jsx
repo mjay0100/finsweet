@@ -21,7 +21,7 @@ const Navbar = () => {
           className={`${
             show
               ? "list-sidebar sidebar show-sidebar h-[50%] items-center text-lg capitalize"
-              : "hidden md:flex gap-6 capitalize items-center"
+              : "hidden lg:flex gap-6 capitalize items-center"
           }`}
         >
           {show && (
@@ -100,7 +100,7 @@ const Navbar = () => {
         </span>
       ) : (
         <span
-          className="absolute right-0 md:hidden text-2xl text-black cursor-pointer"
+          className="absolute right-0 lg:hidden text-2xl text-black cursor-pointer"
           onClick={() => setShow(!show)}
         >
           <FaBars />
