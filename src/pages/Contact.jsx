@@ -4,11 +4,11 @@ import Form from "../components/Form";
 const Contact = () => {
   return (
     <>
-      <section className="px-[3rem] bg-[#EBF0F9] py-[2rem] ">
+      <section className="bg-[#EBF0F9] py-[2rem] w-[100vw]">
         <div className="md:flex w-[85%] mx-auto items-center">
           <div className="mt-[2rem] md:w-[50%] px-4 ">
             <p className="uppercase mb-6">what we do</p>
-            <h1 className="text-5xl mb-6 font-bold">
+            <h1 className="text-4xl md:text-5xl mb-6 font-bold">
               We'd love to hear from you
             </h1>
             <p className="mb-6">
@@ -16,7 +16,7 @@ const Contact = () => {
               neque porro ipsa laboriosam ?
             </p>
           </div>
-          <div className="mt-8 grid w-[40%] mx-auto gap-6 md:w-[50%]">
+          <div className="mt-8 grid md:w-[40%] p-4 mx-auto gap-6 md:w-[50%]">
             <div className="grid gap-3 items-center">
               <h1 className="text-2xl font-semibold">Let's talk!</h1>
               <p>+1 234 56 789</p>
